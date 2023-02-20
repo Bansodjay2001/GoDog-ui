@@ -1,0 +1,322 @@
+.body{
+    font-family: 'Merriweather', ;
+    font-family: 'Montserrat' ;
+    display:grid;
+    }
+    
+    
+    
+    
+    
+    #title {
+      background-color:#863A6F;
+        /* background-repeat: no-repeat;
+      background-size: 3px 10px; */
+    }
+
+    h1{
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Montserrat', sans-serif;
+    size:3rem;
+      line-height:1.5 ;
+      padding: 0% 0% 15% 0%;
+    }
+    .container-fluid{
+      /* padding: 3% 15%; */
+    }
+    .row{
+      padding: 3% 5%;
+    }
+    
+    /*       navbar */
+    .navbar-brand {
+      font-family: 'Lemon', cursive;
+      font-size: 655px; font-weight:bold;
+      padding-right: 600px ;
+      padding-left: 60px;
+      font-size: 500px; 
+     
+      
+    }
+
+   
+
+    .nav-item{
+      padding: 0rem 1.125rem;
+    }
+    .nav-link{
+      font-size: 1.2rem;
+      
+    }
+    /*          download buttons */
+      .Download-Buttons{
+        margin: 3% 3% 3% 0%;
+      }
+     .Download-Buttons:hover{
+       color: white;
+     }
+    img.animated-gif{
+      width: 500px;
+      height: auto;
+      
+    }
+    /* contact us */
+    
+    .call-us{
+      margin-top: 100px;
+    
+    }
+    .contact-text{
+    padding-bottom: 50px;
+      margin:100px 100px 50px 100px;
+     text-align: center;
+      color:#863A6F; ;
+      
+    }
+    .contact-button{
+    
+      margin-left: 550px;
+      box-shadow: -2px 7px 14px -7px #ad87ac;
+        background:linear-gradient(to bottom, #a30a75 5%, #78006a 100%);
+        background-color:#a30a75;
+        border-radius:19px;
+        border:1px solid #d665c9;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:20px;
+        font-weight:bold;
+        padding:11px 20px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3d768a;
+      text-align: center;
+    }
+    .contact-button:hover  {
+         
+      background: #CB1C8D;
+      background-image: -webkit-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: -moz-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: -ms-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: -o-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: linear-gradient(to bottom, #CB1C8D, #CB1C8D);
+      text-decoration: none;
+    }
+    
+    .contact-button:active {
+        position:relative;
+        top:1px;
+    }
+    
+    /* feature section */
+    
+    
+     #features{
+       padding: 7% 10%;
+     }
+    .features-box{
+      text-align: center;
+    }
+    p{
+      color:#8f8f8f;
+    }
+    .icon{
+      color:#863A6F;
+      padding:1rem;
+    }
+    .icon:hover{
+      color:#CB1C8D
+    }
+    
+    /* testimonial section */
+     #testimonials{
+       text-align: center;
+       padding: 7% 23%;
+       background-color: #863A6F;
+     }
+    h2{
+      padding: 5% 0%;
+      font-size: 3rem;
+      line-height: 1.5rem;
+    }
+    .testimonial-image{
+      width: 40%;
+      border-radius: 50%;
+      margin: 20px;
+    }
+    
+    
+    /* Popular-breeds*/
+    
+    
+    
+    .Breeds{
+    text-align: center;
+      padding: 1rem;
+    }
+    .d3{
+      color:#a30a75 ;
+    }
+    
+    
+    .col-lg-4 {
+    text-align: center;
+    }
+    .signup-buttons{
+        box-shadow: -2px 7px 14px -7px #ad87ac;
+        background:linear-gradient(to bottom, #a30a75 5%, #78006a 100%);
+        background-color:#a30a75;
+        border-radius:19px;
+        border:1px solid #d665c9;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:20px;
+        font-weight:bold;
+        padding:11px 20px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3d768a;
+    }
+    .signup-buttons:hover:hover  {
+     background: #CB1C8D;
+      background-image: -webkit-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: -moz-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: -ms-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: -o-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: linear-gradient(to bottom, #CB1C8D, #CB1C8D);
+      text-decoration: none;
+    }
+    .signup-buttons:active {
+        position:relative;
+        top:1px;
+    }
+    .dog-names{
+    color: #863A6F;
+    }
+    
+    /* expore button*/
+    .explore{
+    text-align: center;
+          box-shadow: -2px 7px 14px -7px #ad87ac;
+        background:linear-gradient(to bottom, #a30a75 5%, #78006a 100%);
+        background-color:#a30a75;
+        border-radius:19px;
+        border:1px solid #d665c9;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:20px;
+        font-weight:bold;
+        padding:11px 20px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3d768a;
+    margin-left: 530px;
+      margin-top: 60px;
+      margin-bottom: 90px;
+      
+      
+    }
+    .explore:active {
+        position:relative;
+        top:5px;
+    }
+    .explore:hover { background: #CB1C8D;
+      background-image: -webkit-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: -moz-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: -ms-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: -o-linear-gradient(top, #CB1C8D, #CB1C8D);
+      background-image: linear-gradient(to bottom, #CB1C8D, #CB1C8D);
+      text-decoration: none;
+      
+    }
+    /* feedback */
+    .feedback{
+      background-color:#F7F7F7;
+    margin-top:  10%;
+      
+    }
+    .numbers{
+      color:#863A6F ;
+    }
+    .numbers:hover{
+        color: #CB1C8D;
+    
+    }
+    /* copyright*/
+    .copyright{
+      text-align: center;
+      color:#863A6F ;
+      margin-top: 10px;
+    }
+    #footer{margin-top:9px;
+    text-align: center;
+      color:#863A6F ;
+    }
+    @media screen and (min-width: 342px){
+     html{
+      width: 342px;
+     }
+      #title{
+        width: 342px;
+      }
+      .navbar-brand{
+     padding-right: 200px;
+      }
+      .container-fluid{
+        width:342px;
+      }
+      .navbar-toggler{
+        position: relative;
+        left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .nav-link{
+        margin-left: 20px;
+      }
+      .Heading{
+        display: grid;
+        width: 250px;
+        padding-bottom: 20px;
+      }
+      .Download-Buttons{
+        display: grid; 
+       width: 50px;
+       height: 50px;
+        position: relative;
+        right: 145px;
+        top: 50px;
+       tab-size: 200px;
+      }
+     .download__buttton-text{
+      opacity: 0;
+     }
+     img.animated-gif{
+      width: 300px;
+      position: relative;
+      right: 20px;
+      top: 30px;
+     }
+     .contact-button{
+      position: relative;
+      right: 440px;
+     }
+     .contact__us,
+     .features,
+     .testimonials,
+     .pricing,
+     .feedback,
+     .social__links,
+     .copyright
+     {
+      width: 342px;
+     }
+     .explore{
+      position: relative;
+      right: 440px;
+     }
+   
+
+    }
